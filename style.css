@@ -1,0 +1,81 @@
+
+.form-total{
+    width:35%;
+    margin:auto;
+    background:linear-gradient(to right,rgba(0, 0, 255, 0.068),rgba(241, 8, 47, 0.068)) ;
+    z-index: -1;
+ }
+ 
+ .register-total{
+     text-align: center;
+     padding-bottom:2rem;
+     padding-top:3rem;
+     color:white;
+ }
+ 
+ .label-input{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ 
+ }
+ .form-action label,.form-action input,.form-action textarea{
+   width:100%;
+   margin:1rem;
+   
+ }
+ 
+ .form-action{
+     padding:2rem;
+ } 
+ 
+ 
+ .register-full{
+     background: linear-gradient(to right,rgba(0, 0, 255, 0.397),rgba(241, 8, 47, 0.397));
+     padding-bottom: 2rem;
+     margin-top:2.5rem;
+ }
+ 
+ .label-input button{
+     color:white;
+     background-color: var(--primary-light);
+     padding:0.5rem;
+ }
+ 
+ .label-input label{
+     opacity:0.8;
+     color:white;
+ }
+ 
+ .label-input input{
+     border:none;
+     outline:none;
+     background: transparent;
+     border-bottom: 1px solid white;
+     color:white;
+ }
+ 
+  
+ .label-input textarea{
+     opacity: 0.7;
+     border:none;
+     outline: none;
+     background: transparent ;
+     border:1px solid white; 
+     color:white;
+ }
+ 
+ .label-input button{
+     opacity: 0.8;
+     border:none;
+     outline: none;
+     background: transparent ;
+     border:1px solid white; 
+     color:white;
+     border-radius: 10px;
+     cursor: pointer;
+ }
+ 
+ .label-input button:hover{
+     transform:translateY(5px);
+ }
